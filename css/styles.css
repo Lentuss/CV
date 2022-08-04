@@ -143,15 +143,12 @@ body {
     margin: 10px 0 0 0;
 }
 .study-direction{
-    font-style: normal;
     font-weight: bold;
     font-size: 17px;
     line-height: 17px;
     margin: 10px 0 10px 0;
 }
 .term-of-study{
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 15px;
     color: #4d4d4d;
@@ -163,13 +160,13 @@ body {
     width: 370px;
     left: 87px;
     top: 63px;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 .photo {
     width: 370px;
 }
 .contacts-section {
-    margin: 20px 0 0 40px;
+    margin: 14px 0 0 40px;
 }
 .sidebar-title{
     font-style: normal;
@@ -200,7 +197,7 @@ body {
 }
 .tech-skills-section, .soft-skills-section,
 .methodology-section, .lang-section {
-    margin: 20px 0 0 40px;
+    margin: 14px 0 0 40px;
     padding-right: 20px;
 
 }
