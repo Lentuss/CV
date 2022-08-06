@@ -19,27 +19,24 @@ body {
     padding: 100px 90px 100px 90px;
 }
 .main-content-title {
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 27px;
     color: black;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /*about me section*/
 
 .about-me-profession {
-    color: #33d350;;
+    color: #26a53d;
     font-weight: 700;
-    font-style: normal;
     font-size: 24px;
     line-height: 17px;
     margin-bottom: 20px;
 
 }
 .main-title{
-    font-style: normal;
     font-weight: bold;
     font-size: 45px;
     line-height: 55px;
@@ -47,8 +44,7 @@ body {
 }
 
 .about-me-info{
-    font-weight: normal;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 24px;
     color: #181818;
     width: 650px;
@@ -62,61 +58,56 @@ body {
 }
 .my-projects-list{
     padding-left: 17px;
-    font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 24px;
 }
 .code-link{
     color: #4d4d4d;
-    font-weight: normal;
     margin-right: 3px;
 }
 .my-projects-link{
-    font-style: normal;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 24px;
-    color: #33d350;;
+    color: #26a53d;
     margin-left: 5px ;
     text-decoration: none;
 }
-.dots{
+.role{
     color: #4d4d4d;
+    font-weight: normal;
+    margin: 0;
+
 }
 .projects-item{
-    color: black;
-    font-weight: bold;
+   margin-bottom: 5px;
 }
 .my-project-languages{
-    font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #181818;
 }
 .experience{
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 .my-work-position{
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     color: black;
-    margin-bottom: 10px;
+    margin: 0 0 10px;
 }
 .name-of-company{
-    font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
-    color: #33d350;;
+    color: #26a53d;
     margin-bottom: 10px;
 }
 .working-terms{
     margin-bottom: 10px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 15px;
     color: #4d4d4d;
@@ -126,8 +117,7 @@ body {
     margin: 0 5px 0 5px;
 }
 .work-experience-list{
-    font-weight: normal;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 24px;
     color: #181818;
     padding-left: 17px;
@@ -135,16 +125,15 @@ body {
 }
 /*education section*/
 .name-of-university{
-    font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
-    color: #33d350;;
+    color: #26a53d;
     margin: 10px 0 0 0;
 }
 .study-direction{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 17px;
     margin: 10px 0 10px 0;
 }
@@ -169,7 +158,6 @@ body {
     margin: 14px 0 0 40px;
 }
 .sidebar-title{
-    font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
@@ -190,7 +178,6 @@ body {
     margin-right: 7px;
 }
 .contacts-section-link {
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
@@ -208,8 +195,6 @@ body {
     color: #33d350;;
 }
 .tech-skills-item-text{
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
@@ -225,7 +210,6 @@ body {
 .methodology-item, .lang-item{
     padding: 0;
     margin: 0;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
