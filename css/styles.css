@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
-    height: 1319px;
     left: 40px;
     top: 40px;
     background: #FFFFFF;
@@ -16,7 +15,7 @@ body {
     
 }
 .main-content{
-    padding: 100px 90px 100px 90px;
+    padding: 70px 90px;
 }
 .main-content-title {
     font-weight: bold;
@@ -65,6 +64,8 @@ body {
 .code-link{
     color: #4d4d4d;
     margin-right: 3px;
+    /* font-style: italic; */
+    font-weight: normal;
 }
 .my-projects-link{
     font-weight: bold;
@@ -74,11 +75,13 @@ body {
     margin-left: 5px ;
     text-decoration: none;
 }
-.role{
+.my-projects-description{
     color: #4d4d4d;
     font-weight: normal;
     margin: 0;
-
+}
+.role{
+    color: black;
 }
 .projects-item{
    margin-bottom: 5px;
