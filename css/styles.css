@@ -1,219 +1,235 @@
 body {
-    background-color:#F5F7FA;
-    font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+  font-family: 'Montserrat', sans-serif;
 }
- 
+ol {
+  margin: 0;
+}
 
-.main-section{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    left: 40px;
-    top: 40px;
-    background: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    
+.main-section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  left: 40px;
+  top: 40px;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
-.main-content{
-    padding: 70px 90px;
+.main-content {
+  padding: 0 90px 10px;
 }
 .main-content-title {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 27px;
-    color: black;
-    margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.main-title {
+  font-weight: bold;
+  font-size: 45px;
+  margin: 18px 0;
 }
 
 /*about me section*/
-
+.about-me {
+  margin-bottom: 24px;
+}
 .about-me-profession {
-    color: #26a53d;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 17px;
-    margin-bottom: 20px;
-
-}
-.main-title{
-    font-weight: bold;
-    font-size: 45px;
-    line-height: 55px;
-    margin-bottom: 25px;
+  color: #26a53d;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 17px;
+  margin-bottom: 20px;
 }
 
-.about-me-info{
-    font-size: 18px;
-    line-height: 24px;
-    color: #181818;
-    width: 650px;
-    margin-bottom: 35px;
+.about-me-info {
+  font-size: 16px;
+  line-height: 24px;
+  color: #181818;
+  width: 650px;
+  margin: 4px 0;
 }
 
 /*my-projects-section*/
-.my-projects{
-    
-    margin-bottom:35px;
+.my-projects {
+  margin-bottom: 18px;
 }
-.my-projects-list{
-    padding-left: 17px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
+.my-projects-list {
+  padding-left: 17px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
 }
-.code-link{
-    color: #4d4d4d;
-    margin-right: 3px;
-    /* font-style: italic; */
-    font-weight: normal;
+.code-link {
+  color: #4d4d4d;
+  margin-right: 3px;
+  /* font-style: italic; */
+  font-weight: normal;
 }
-.my-projects-link{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
-    color: #26a53d;
-    margin-left: 5px ;
-    text-decoration: none;
+.my-projects-link {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: #26a53d;
+  margin-left: 5px;
+  text-decoration: none;
 }
-.my-projects-description{
-    color: #4d4d4d;
-    font-weight: normal;
-    margin: 0;
+.my-projects-type {
+  margin: 0;
 }
-.role{
-    color: black;
+.my-projects-description {
+  color: #4d4d4d;
+  font-weight: normal;
+  margin: 0;
 }
-.projects-item{
-   margin-bottom: 5px;
+.my-projects-list-commercial br {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.my-project-languages{
-    font-size: 18px;
-    line-height: 24px;
-    color: #181818;
+.team-role {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
 }
-.experience{
-    margin-bottom: 20px;
+.role {
+  color: black;
 }
-.my-work-position{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    color: black;
-    margin: 0 0 10px;
+.projects-item {
+  margin-bottom: 5px;
 }
-.name-of-company{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    color: #26a53d;
-    margin-bottom: 10px;
+.my-project-languages {
+  font-size: 18px;
+  line-height: 24px;
+  color: #181818;
 }
-.working-terms{
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 15px;
-    color: #4d4d4d;
+.experience {
+  margin-bottom: 20px;
 }
-.term-divider{
-    color: black;
-    margin: 0 5px 0 5px;
+.my-work-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  margin: 0 0 10px;
 }
-.work-experience-list{
-    font-size: 18px;
-    line-height: 24px;
-    color: #181818;
-    padding-left: 17px;
-    margin-bottom: 15px;
+.name-of-company {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #26a53d;
+  margin-bottom: 10px;
+}
+.working-terms {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #4d4d4d;
+}
+.term-divider {
+  color: black;
+  margin: 0 5px 0 5px;
+}
+.work-experience-list {
+  font-size: 16px;
+  line-height: 18px;
+  color: #181818;
+  padding-left: 17px;
+  margin-bottom: 15px;
 }
 /*education section*/
-.name-of-university{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-    color: #26a53d;
-    margin: 10px 0 0 0;
+.name-of-university {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  color: #26a53d;
+  margin: 10px 0 0 0;
 }
-.study-direction{
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 17px;
-    margin: 10px 0 10px 0;
+.study-direction {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+  margin: 6px 0;
 }
-.term-of-study{
-    font-size: 14px;
-    line-height: 15px;
-    color: #4d4d4d;
+.term-of-study {
+  margin: 0;
+  font-size: 14px;
+  color: #4d4d4d;
 }
 /*sidebar section*/
-.sidebar{
-    background:#1E2939;
-    color: #ffffff;
-    width: 370px;
-    left: 87px;
-    top: 63px;
-    padding: 20px 0;
+.sidebar {
+  background: #1e2939;
+  color: #ffffff;
+  width: 370px;
+  left: 87px;
+  top: 63px;
+  padding: 20px 0;
 }
 .photo {
-    width: 370px;
+  width: 370px;
 }
 .contacts-section {
-    margin: 14px 0 0 40px;
+  margin: 14px 0 0 40px;
 }
-.sidebar-title{
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 27px;
-    color: #33d350;
-    margin-bottom: 10px;
+.sidebar-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #33d350;
+  margin-bottom: 10px;
 }
 .contacts {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-.contacts-list{
-    display: flex;
-   list-style: none;
-   padding: 0;
-   margin: 0;
+.contacts-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.contacts-list li:not(:last-child){
-    margin-right: 7px;
+.contacts-list li:not(:last-child) {
+  margin-right: 7px;
 }
 .contacts-section-link {
-    font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
 }
-.tech-skills-section, .soft-skills-section,
-.methodology-section, .lang-section {
-    margin: 14px 0 0 40px;
-    padding-right: 20px;
-
+.tech-skills-section,
+.soft-skills-section,
+.methodology-section,
+.lang-section {
+  margin: 14px 0 0 40px;
+  padding-right: 20px;
 }
 .tech-skills-list {
-    padding-left: 17px;
+  padding-left: 17px;
 }
 .tech-skills-item {
-    color: #33d350;;
+  color: #33d350;
 }
-.tech-skills-item-text{
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
+.tech-skills-item-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 /*soft skils section*/
 
-.soft-skills-list, .methodology-list{
-    padding-left: 17px; 
+.soft-skills-list,
+.methodology-list {
+  padding-left: 17px;
 }
 
 .soft-skills-item,
-.methodology-item, .lang-item{
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    line-height: 24px;
-    color: #FFFFFF;
+.methodology-item,
+.lang-item {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
 }
